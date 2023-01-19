@@ -41,6 +41,7 @@ const Update = () => {
                 <input onChange={handleInputChange} defaultValue={storedUser.adress} type="text" name='adress' placeholder='Address' required /> <br />
                 <input onChange={handleInputChange} defaultValue={storedUser.email} type="email" name='email' placeholder='Email' required/> <br />
                 <button type='submit'>Update User</button>
+                <button></button>
             </form>
         </div>
     );
